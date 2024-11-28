@@ -1,7 +1,7 @@
-FROM ubuntu:latest
-LABEL authors="celia"
-
-ENTRYPOINT ["top", "-b"]
+#FROM ubuntu:latest
+#LABEL authors="celia"
+#
+#ENTRYPOINT ["top", "-b"]
 #------------------------------------
 # Usar una imagen base con JDK 11 y Maven
 FROM maven:3.8.4-openjdk-17 AS build
